@@ -1,0 +1,27 @@
+<svg viewBox="0 0 700 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .terracotta { fill: #C1502E; }
+      .green { fill: #2F5233; }
+      .gold { fill: #D4A017; }
+    </style>
+  </defs>
+
+  <rect width="700" height="260" fill="#2F5233"/>
+
+  <!-- Icon: stylized palm leaf / plantain leaf mark -->
+  <g transform="translate(95,130)">
+    <path d="M 0 0 C -10 -55 -55 -75 -85 -60 C -60 -40 -30 -15 0 0 Z" fill="#D4A017"/>
+    <path d="M 0 0 C 10 -55 55 -75 85 -60 C 60 -40 30 -15 0 0 Z" class="terracotta"/>
+    <path d="M 0 0 C -10 55 -55 75 -85 60 C -60 40 -30 15 0 0 Z" class="terracotta"/>
+    <path d="M 0 0 C 10 55 55 75 85 60 C 60 40 30 15 0 0 Z" fill="#D4A017"/>
+    <circle cx="0" cy="0" r="9" fill="#FAF3E7"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="220" y="120" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="700" fill="#FAF3E7">Enkie</text>
+  <text x="223" y="160" font-family="Georgia, serif" font-size="19" letter-spacing="6" fill="#D4A017" font-weight="600">NIGERIAN KITCHEN &amp; GRILL</text>
+
+  <!-- Underline accent -->
+  <rect x="223" y="172" width="330" height="3" fill="#C1502E"/>
+</svg>
