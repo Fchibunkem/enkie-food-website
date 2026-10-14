@@ -1,0 +1,366 @@
+body {
+  font-family: Arial;
+  color: darkred;
+}
+
+.header {
+  background-color: white;
+  color: darkred;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  width: 100%;
+  max-width: 1250px;
+  flex-wrap: wrap;
+}
+
+.toolbar img {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: auto;
+  height: 60px;
+  width: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: darkred;
+  margin: auto;
+  text-align: top;
+  padding: 0px;
+}
+
+.header img {
+  margin: auto;
+  height: 550px;
+  width: 100%;
+  max-width: 648.5px;
+  padding: 0px;
+}
+
+header {
+  background-color: rgb(248, 89, 89);
+  height: 0px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  max-width: 1250px;
+  padding: 35px;
+  margin: auto;
+  width: 94.5%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  list-style: none;
+  margin: auto;
+  padding: auto;
+  width: 80%;
+  max-width: 800px;
+}
+
+.header12 h1 {
+  font-size: 90px;
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  margin: auto;
+  display: flex;
+}
+.header12 h3 {
+  color: rgb(248, 89, 89);
+  font-style: italic;
+  font-weight: normal;
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+.welcome-sec {
+  background-color: darkred;
+  display: flex;
+  padding: 0px;
+  margin: auto;
+  width: 100%;
+  max-width: 1250px;
+  flex-wrap: wrap;
+}
+
+.welcome-note {
+  background-color: darkred;
+  height: 290px;
+  color: white;
+  align-items: center;
+  padding: 73.9px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.welcome-note p {
+  font-size: 15px;
+  width: auto;
+  padding: 0px;
+}
+.welcome-note h2 {
+  font-size: 30px;
+  margin: 0px;
+}
+.welcome-sec img {
+  background-color:;
+  margin: auto;
+  width: 100%;
+  max-width: 500px;
+  padding: 0px;
+  height: 438px;
+}
+
+.display {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1250px;
+}
+
+.display img {
+  margin: 20px;
+  border-radius: 30px;
+  height: 350px;
+  width: 270px;
+}
+
+.login-button {
+  background-color: darkred;
+  border: none;
+  margin: auto;
+  padding: 15px 25px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.login-button a {
+  color: white;
+}
+
+.login-button:hover {
+  opacity: 0.82;
+  transition: 0.15s;
+}
+
+.sign-up {
+  background-color: rgb(248, 89, 89);
+  color: darkred;
+  margin: auto;
+  padding: 12px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  justify-content: center;
+}
+.sign-up:hover {
+  text-decoration: underline;
+  background-color: rgb(248, 89, 89);
+  border-style: solid;
+  border-color: darkred;
+  border-width: 2px;
+  transition: 0.15s;
+}
+
+.about {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 100%;
+  max-width: 1250px;
+}
+
+.about-txt {
+  width: 100%;
+  max-width: 598px;
+  margin: auto;
+  padding: 0px;
+}
+.about-txt1 {
+  font-size: 100px;
+}
+
+.about-img {
+  padding: auto;
+  height: 600px;
+  width: 100%;
+  max-width: 650px;
+  justify-content: right;
+  margin: auto;
+}
+
+.sub-header2 {
+  color: rgb(248, 89, 89);
+  font-style: italic;
+  font-weight: normal;
+  font-size: 40px;
+}
+.testimonial-sec {
+  background-color: darkred;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  align-items: center;
+  gap: 0px;
+}
+
+.testimonials {
+  width: 750px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 50px;
+  text-wrap:;
+}
+
+.heade {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.featured-imgs {
+  height: 400px;
+  width: 370px;
+  border-radius: 50px;
+}
+
+.title {
+  text-align: center;
+  font-size: 22px;
+}
+.featured-txts {
+  width: auto;
+}
+.dishes {
+  display: flex;
+  gap: 50px;
+  padding: 20px;
+}
+
+.menu-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+
+.button {
+  background-color: rgb(248, 89, 89);
+  width: 200px;
+  height: 200px;
+  border: none;
+  border-radius: 20px;
+}
+
+.table {
+  justify-content: center;
+  height: 200px;
+  width: 60%;
+  max-width: 500%;
+  margin: auto;
+}
+
+.map {
+  margin-left: px;
+  max-width: 1250px;
+  width: 100%;
+}
+.reservation-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.reservation-form {
+  width: 400px;
+}
+
+.reservation-form h1,
+.reservation-form h3 {
+  text-align: center;
+}
+
+.reservation-form label {
+  display: block;
+  margin-top: 15px;
+}
+
+.reservation-form input {
+  color: darkred;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: rgb(248, 89, 89);
+  border-radius: 4px;
+  border-color: darkred;
+  border-style: solid;
+  border-width: 1px;
+  height: 47px;
+}
+.reservation-form input:-webkit-autofill,
+.reservation-form input:-webkit-autofill:hover,
+.reservation-form input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px rgb(248, 89, 89) inset;
+  -webkit-text-fill-color: darkred;
+}
+
+.book-us {
+  text-align: center;
+  align-items: center;
+  font-style: italic;
+}
+
+.login-container {
+  text-align: center;
+  margin: 50px;
+}
+
+.login-container input {
+  color: darkred;
+  width: 30%;
+  padding: 0px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border-color: darkred;
+  border-style: solid;
+  border-width: 1px;
+  height: 47px;
+}
+
+.login-container p {
+  text-decoration: underline;
+}
+
+.log-in {
+  background-color: darkred;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 4px;
+}
+
+.footer {
+  text-align: center;
+  background-color: rgb(248, 89, 89);
+  padding: 40px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 0px;
+  padding: 0px;
+  width: 100%;
+  max-width: 1250px;
+  margin: auto;
+}
